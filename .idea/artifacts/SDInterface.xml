@@ -1,0 +1,22 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="SDInterface">
+    <output-path>$PROJECT_DIR$/out/artifacts/SDInterface</output-path>
+    <root id="archive" name="SDInterface.war">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="SDInterface" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="lib" />
+          <element id="library" level="project" name="druid-1.2.15" />
+          <element id="library" level="project" name="ojdbc6" />
+          <element id="library" level="project" name="jackson-databind-2.8.7" />
+          <element id="library" level="project" name="jackson-annotations-2.8.0" />
+          <element id="library" level="project" name="commons" />
+          <element id="library" level="project" name="spring" />
+        </element>
+      </element>
+      <element id="javaee-facet-resources" facet="SDInterface/web/Web" />
+    </root>
+  </artifact>
+</component>
